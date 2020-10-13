@@ -17,6 +17,7 @@
 <title>Content</title>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <div align="center">
 <a href="<c:url value="./RecipeSelectServlet2?page=1"/>"><input type="button" value="­¹ÃĞ¦Cªí"/></a>
 </div>

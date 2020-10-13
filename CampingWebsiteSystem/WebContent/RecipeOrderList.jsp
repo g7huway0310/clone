@@ -13,6 +13,7 @@
 
 </style>
 </head>
+<jsp:include page="/header.jsp" />
 <body style="background: #EBFFEB;">
 <c:set var="funcName" value="ORD" scope="session"/>
 <table style="margin-left:auto; margin-right:auto; width:810; background:#F5EBFF; border:2px solid blue; border-style: outset; ">

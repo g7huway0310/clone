@@ -78,6 +78,7 @@ function Abort() {
 </script>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <c:set var="funcName" value="CHE" scope="session"/>
 <c:choose>
    <c:when test="${RecipeShoppingCart.subtotal > 0}">

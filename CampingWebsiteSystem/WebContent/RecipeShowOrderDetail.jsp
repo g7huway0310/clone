@@ -20,6 +20,7 @@
 </style>
 </head>
 <body style="background: #EBFFEB;">
+<jsp:include page="/header.jsp" />
 <TABLE style="margin-left: auto; margin-right: auto; background: #F0E4F4; border: 1px blue solid;">
 		<tr id='borderA' height='50'>
 			<th id='borderA' align="center" colspan="7"><h3>訂單明細</h3></th>

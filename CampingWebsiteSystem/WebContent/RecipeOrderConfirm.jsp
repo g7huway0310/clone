@@ -44,6 +44,7 @@ function reconfirmOrder() {
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <c:set var="funcName" value="CHE" scope="session"/>
 <div style="text-align:center">
 <h3>請確認下列訊息：</h3>

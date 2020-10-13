@@ -24,6 +24,7 @@
 </head>
 <body bgcolor='lightyellow'>
 <h1>露營料理食譜</h1>
+<jsp:include page="/header.jsp" />
 <table border="1" width="100%">
     <tr class="table-active" align="center" valign="top">
         <td colspan="10">
