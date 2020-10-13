@@ -118,6 +118,8 @@ public class ProductServlet extends HttpServlet {
 	protected void buyProduct(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+		
+		
 		String productId = request.getParameter("pid");
 		System.out.println(productId);
 		BusinessServiceImp dao = new BusinessServiceImp();

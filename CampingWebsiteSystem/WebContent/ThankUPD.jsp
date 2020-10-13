@@ -12,6 +12,7 @@ response.setContentType("text/html;charset=UTF-8");
 <title>食譜更新成功</title>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 食譜更新成功!<br>
 <a href="<c:url value="./RecipeSelectServlet2?page=1"/>"><input type="button" value="回食譜查詢"></a>
 </body>

@@ -4,16 +4,14 @@
 <%
 response.setContentType("text/html;charset=UTF-8");
 %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>完成食譜分享</title>
+<title>更新成功</title>
 </head>
 <body>
-<jsp:include page="/header.jsp" />
-食譜分享成功!<br>
-<a href="<c:url value="./RecipeSelectServlet2?page=1"/>"><input type="button" value="回食譜查詢"></a>
+<h2>完成更新</h2>
+<a href=".\MCamp.jsp"><input type="button" name="select" value="查詢" ></a>
 </body>
 </html>

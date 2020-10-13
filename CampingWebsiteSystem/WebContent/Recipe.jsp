@@ -135,7 +135,7 @@
          </c:if></c:if><td/>
          <c:if test="${recipe.price<=0}">
          <td><td/>
-         <td><td/>
+
          </c:if>
         </form>
     </tr>

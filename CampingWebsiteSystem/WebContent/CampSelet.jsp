@@ -16,7 +16,7 @@ response.setDateHeader ("Expires", -1); // Prevents caching at the proxy server
 <body>
 <center>
 <h2>營區資料查詢</h2>
-<form action="CampServlet" method="post">
+<form action=".\CampServlet" method="post">
 <table  cellspacing="2" cellpadding="1" border="1">
 <tr>
     <td>城市:</td>

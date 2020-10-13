@@ -84,6 +84,7 @@ public class CartServlet extends HttpServlet {
 		ShoppingProduct product = service.findprProduct(productId);
 
 		service.addClcikNum(productId);
+		
 
 		// 獲取購物車如果沒有就建立購物車
 		Cart cart = (Cart) request.getSession(true).getAttribute("cart");
@@ -93,8 +94,12 @@ public class CartServlet extends HttpServlet {
 			request.getSession(true).setAttribute("cart", cart);
 		}
 		cart.add(product, num);
+		
+		request.setAttribute("type", choose);
+		
+		
+		
 
-		response.sendRedirect("http://localhost:8080/CampingWebsiteSystem/list.jsp?type=" + choose);
 	}
 
 	private void delete(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {

@@ -8,7 +8,6 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,16 +20,16 @@
         <a class="nav-link" href="./RecipeSelectServlet2?page=1">食材販售</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">會員系統</a>
+        <a class="nav-link" href="login.jsp">會員系統</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href=".\PageServlet">器材販售</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">露營活動</a>
+        <a class="nav-link" href="Campinginsert.jsp">露營活動</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="#">部落格</a>
+        <a class="nav-link" href="http://localhost:8080/CampingWebsiteSystem/FormArticle.jsp">部落格</a>
       </li>
      
     </ul>

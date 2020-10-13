@@ -43,6 +43,7 @@ color:red}
 
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <div align="center">
 
 <form action="login" method="post">

@@ -14,6 +14,7 @@ response.setDateHeader ("Expires", -1); // Prevents caching at the proxy server
 <title>更新食譜</title>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <h2>
 更新食譜
 </h2>

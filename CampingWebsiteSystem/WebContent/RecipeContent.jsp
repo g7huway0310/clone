@@ -6,8 +6,9 @@
 <head>
 <meta charset="UTF-8">
 <style type="text/css">
- table{
-    border-collapse:collapse
+ div{
+    margin:5px
+  
  }
 
 
@@ -16,8 +17,10 @@
 <title>Content</title>
 </head>
 <body>
-<table border="1" width="80%">
+<div align="center">
 <a href="<c:url value="./RecipeSelectServlet2?page=1"/>"><input type="button" value="­¹ÃÐ¦Cªí"/></a>
+</div>
+<table border="1" width="80%" align="center">
 <c:forEach var='recipe' items='${list}'>
 <tr  align="center">
         <td colspan="8"><h1>${recipe.rename}</h1><br>
@@ -83,5 +86,8 @@
 
 </c:forEach>
 </table>
+<div align="center">
+<a href="<c:url value="./RecipeSelectServlet2?page=1"/>"><input type="button" value="­¹ÃÐ¦Cªí"/></a>
+</div>
 </body>
 </html>

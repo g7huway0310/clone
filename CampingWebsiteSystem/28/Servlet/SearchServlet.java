@@ -137,7 +137,7 @@ public class SearchServlet extends HttpServlet {
 		// 使用Cookie來儲存目前讀取的網頁編號，Cookie的名稱為memberId + "pageNo"
 		// -----------------------
 		Cookie pnCookie = new Cookie("SearchpageNo", String.valueOf(searchPageNo));
-		Cookie keyCookie = new Cookie("Searchkey", keyword);
+		Cookie keyCookie = new Cookie("Searchkey", keyword.trim());
 //			    // 設定Cookie的存活期為30天
 		pnCookie.setMaxAge(30 * 24 * 60 * 60);
 //			    // 設定Cookie的路徑為 Context Path		

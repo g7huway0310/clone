@@ -13,6 +13,7 @@ response.setDateHeader ("Expires", -1); // Prevents caching at the proxy server
 <title>確認食譜內容</title>
 </head>
 <body>
+<jsp:include page="/header.jsp" />
 <jsp:useBean id="reg_recipe" class="shoppingMall.RecipeBean" scope="session"/>
 <h2>
 食譜內容如下請確認
@@ -78,6 +79,7 @@ response.setDateHeader ("Expires", -1); // Prevents caching at the proxy server
 </table>
 <center>
 <input type="submit" name="confirm" value="確認" >
+<a href="./RecipeSelectServlet2?page=1"><input type="button" value="取消"/></a>
 </center>
 </form>
 </body>

@@ -10,7 +10,7 @@
 	crossorigin="anonymous">
 </head>
 <body>
-
+<jsp:include page="/header.jsp" />
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark"
 			style="background-color:rgb(189, 137, 137)">

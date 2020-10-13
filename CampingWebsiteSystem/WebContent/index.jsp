@@ -121,10 +121,10 @@
 				<c:forEach items="${pageProducts}" var="cty">
 					<tr>
 						<td><a
-							href="ProductServlet?opt=buyProduct&pid=${cty.productId}"
+							href="ProductServlet?opt=buyProduct&pid=${cty.productId}&url="<c:url value='PageServlet?pageNo' />""
 							onclick="incrementCounter()">${cty.productId}</a></td>
 						<td><a
-							href="ProductServlet?opt=buyProduct&pid=${cty.productId}"
+							href="ProductServlet?opt=buyProduct&pid=${cty.productId}&url="<c:url value='PageServlet?pageNo' />""
 							onclick="incrementCounter()">${cty.productName}</a></td>
 						<td>${cty.productPrice}</td>
 					</tr>
